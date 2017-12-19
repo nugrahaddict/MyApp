@@ -4,11 +4,11 @@ package com.example.android.myapp;
  * Created by Adi Nugraha on 12/19/2017.
  */
 
-public class Response {
+public class ResponseLogin {
     private String status, fullname, message;
 
 
-    public Response(String status, String fullname, String message) {
+    public ResponseLogin(String status, String fullname, String message) {
         this.status = status;
         this.fullname = fullname;
         this.message = message;

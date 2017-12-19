@@ -15,7 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 
 public class BaseActivity extends AppCompatActivity{
     private APIService api;
-    private static final String URL = "http://192.168.43.154/android-backend2/web/index.php/";
+    private static final String URL = "http://192.168.43.138/android-backend2/web/index.php/";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

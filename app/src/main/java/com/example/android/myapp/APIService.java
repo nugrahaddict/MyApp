@@ -12,7 +12,7 @@ import retrofit2.http.POST;
 public interface APIService {
     @FormUrlEncoded
     @POST("user/login")
-    Call<Response>dologin(@Field("username") String username,
-                          @Field("password") String password);
+    Call<ResponseLogin>dologin(@Field("username") String username,
+                               @Field("password") String password);
 
 }
