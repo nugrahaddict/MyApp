@@ -33,4 +33,12 @@ public class BaseActivity extends AppCompatActivity{
                 .build();
         api = base.create(APIService.class);
     }
+
+    public APIService getApi() {
+        return api;
+    }
+
+    public void setApi(APIService api) {
+        this.api = api;
+    }
 }
