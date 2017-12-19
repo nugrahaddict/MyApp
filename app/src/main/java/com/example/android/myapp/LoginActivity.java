@@ -40,7 +40,8 @@ public class LoginActivity extends AppCompatActivity {
                 String u = username.getText().toString();
                 Intent i = new Intent(LoginActivity.this, MainActivity.class);
                 i.putExtra("username", u);
-                startA
+                startActivity(i);
+                finish();
             }
         }
 
