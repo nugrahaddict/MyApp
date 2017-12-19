@@ -22,7 +22,7 @@ import static android.net.wifi.WifiEnterpriseConfig.Eap.PWD;
 public class LoginActivity extends AppCompatActivity {
 
     private static String UNAME = "nugraha";
-    private static String PWD = "0000";
+    private static String PWD = "00000000000";
 
     @BindView(R.id.etUsername) EditText username;
     @BindView(R.id.pass) EditText password;
